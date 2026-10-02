@@ -30,3 +30,6 @@ data/lake/
 *.swp
 .DS_Store
 Thumbs.db
+
+# Internal Scaffolding Metadata
+scaffolding.manifest.json
