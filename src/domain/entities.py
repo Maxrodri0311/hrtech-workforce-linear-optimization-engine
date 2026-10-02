@@ -4,7 +4,7 @@ Architecture: Clean Architecture & Strict Pydantic Contracts.
 Zero external I/O or vendor infrastructure dependencies.
 """
 
-from datetime import datetime
+from datetime import datetime, timezone
 from enum import Enum
 from typing import Dict, List, Optional
 from pydantic import BaseModel, Field, field_validator
@@ -93,4 +93,4 @@ class ExecutiveOptimizationResult(BaseModel):
     efficiency_gain_pct: float = Field(..., description="Percentage gain over naive heuristic allocation")
     allocations: List[AllocatedSourcingUnit] = Field(default_factory=list)
     solve_time_ms: float = Field(..., ge=0.0)
-    solved_at: datetime = Field(default_factory=datetime.utcnow)
+    solved_at: datetime = Field(default_factory=lambda: datetime.now(timezone.utc))
