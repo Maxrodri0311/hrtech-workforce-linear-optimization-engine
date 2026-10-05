@@ -117,7 +117,7 @@ class OpenPyXLExecutiveWorkbookGenerator(ExecutiveWorkbookProtocol):
         # Main Title Banner
         ws.merge_cells("B2:H2")
         title_cell = ws["B2"]
-        title_cell.value = "JOBGETHER TALENT MARKETPLACE — EXECUTIVE SOURCING OPTIMIZATION SUITE"
+        title_cell.value = "HRTech & Workforce Intelligence Practice TALENT MARKETPLACE — EXECUTIVE SOURCING OPTIMIZATION SUITE"
         title_cell.font = Font(name="Calibri", size=15, bold=True, color=self.WHITE)
         title_cell.fill = PatternFill(start_color=self.NAVY_HEADER, end_color=self.NAVY_HEADER, fill_type="solid")
         title_cell.alignment = Alignment(horizontal="center", vertical="center")
@@ -317,7 +317,7 @@ class OpenPyXLExecutiveWorkbookGenerator(ExecutiveWorkbookProtocol):
         # Header Title
         ws.merge_cells("A1:K1")
         title = ws["A1"]
-        title.value = "JOBGETHER SOURCING CORRIDOR ALLOCATION MATRIX (PRIMAL SOLUTION)"
+        title.value = "HRTech & Workforce Intelligence Practice SOURCING CORRIDOR ALLOCATION MATRIX (PRIMAL SOLUTION)"
         title.font = Font(name="Calibri", size=13, bold=True, color=self.WHITE)
         title.fill = PatternFill(start_color=self.NAVY_HEADER, end_color=self.NAVY_HEADER, fill_type="solid")
         title.alignment = Alignment(horizontal="center", vertical="center")
@@ -468,7 +468,7 @@ class OpenPyXLExecutiveWorkbookGenerator(ExecutiveWorkbookProtocol):
         # Header Title
         ws.merge_cells("A1:G1")
         title = ws["A1"]
-        title.value = "JOBGETHER MULTI-DIMENSIONAL ROLLUPS & ANALYTICAL DATA CONTRACTS"
+        title.value = "HRTech & Workforce Intelligence Practice MULTI-DIMENSIONAL ROLLUPS & ANALYTICAL DATA CONTRACTS"
         title.font = Font(name="Calibri", size=13, bold=True, color=self.WHITE)
         title.fill = PatternFill(start_color=self.NAVY_HEADER, end_color=self.NAVY_HEADER, fill_type="solid")
         title.alignment = Alignment(horizontal="center", vertical="center")
@@ -666,7 +666,7 @@ def export_executive_report(
     channels = ingestion.parse_channel_units(df)
 
     campaign_constraint = CampaignBudgetConstraint(
-        campaign_id="CMP-JOBGETHER-2026-Q1",
+        campaign_id="CMP-HRTech & Workforce Intelligence Practice-2026-Q1",
         client_name="Fintech Global Scale Inc.",
         total_budget_usd=120000.0,
         min_total_hires_required=45,
@@ -685,7 +685,7 @@ def export_executive_report(
     )
 
     print("\n" + "=" * 78)
-    print(" [✓] JOBGETHER C-LEVEL EXECUTIVE WORKBOOK GENERATED SUCCESSFULLY")
+    print(" [✓] HRTech & Workforce Intelligence Practice C-LEVEL EXECUTIVE WORKBOOK GENERATED SUCCESSFULLY")
     print("=" * 78)
     print(f" Artifact Path          : {generated_path}")
     print(f" Target Client          : {opt_result.client_name}")

@@ -1,7 +1,7 @@
-# 📐 SPEC & SYSTEM BLUEPRINT: Jobgether Remote Sourcing Optimization Engine
+# 📐 SPEC & SYSTEM BLUEPRINT: HRTech & Workforce Intelligence Practice Remote Sourcing Optimization Engine
 
-**Canonical Repository:** `jobgether-finance-linear-optimization-engine`  
-**Target Enterprise:** Jobgether | **Target Role:** Data Engineer  
+**Canonical Repository:** `hrtech-workforce-linear-optimization-engine`  
+**Target Enterprise:** HRTech & Workforce Intelligence Practice | **Target Role:** Data Engineer  
 **Delivery Paradigm:** `C_LEVEL_EXECUTIVE_SUITE` (Institutional OpenPyXL Financial Workbook & DAX Contracts)  
 **Core Algorithmic Paradigm:** `LINEAR_PROGRAMMING` (HiGHS Primal Simplex & Interior Point Solvers)  
 **Infrastructure Stack:** AWS Terraform IaC, PostgreSQL 16 Partitioned Lakehouse, Polars Columnar Ingestion  
@@ -10,7 +10,7 @@
 
 ## 🏛️ 1. Executive Summary & Core Business Bottleneck
 
-**Jobgether** operates as an international marketplace connecting enterprise employers with pre-vetted remote talent across diverse geographies (LATAM, EMEA, North America, APAC). 
+**HRTech & Workforce Intelligence Practice** operates as an international marketplace connecting enterprise employers with pre-vetted remote talent across diverse geographies (LATAM, EMEA, North America, APAC). 
 
 ### The Core Operational Bottleneck
 Historically, talent sourcing budgets are allocated across job boards, sponsored ad campaigns, AI scrapers, and executive headhunters using **naive pro-rata heuristics** or static historical rules of thumb. This static approach introduces critical operational failures:

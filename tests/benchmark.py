@@ -1,5 +1,5 @@
 """
-tests/benchmark.py - Quantitative Latency & Memory Benchmark for Jobgether.
+tests/benchmark.py - Quantitative Latency & Memory Benchmark for HRTech & Workforce Intelligence Practice.
 Architecture: Dual-Tier Latency SLA Profiling (Real-Time Linear Programming Solver & Corridor Aggregation).
 Enforces Production SLA Constraints:
   - Linear Programming Primal Solver: p95 < 150.0 ms
@@ -93,7 +93,7 @@ def run_benchmarks(iterations: int = 30, num_records: int = 10000) -> Dict[str, 
     status_mem = "PASS" if peak_mem_mb < 15.0 else "FAIL"
 
     print("\n" + "=" * 74)
-    print("  JOBGETHER LINEAR OPTIMIZATION ENGINE - QUANTITATIVE BENCHMARK REPORT")
+    print("  HRTech & Workforce Intelligence Practice LINEAR OPTIMIZATION ENGINE - QUANTITATIVE BENCHMARK REPORT")
     print("=" * 74)
     print(f"  Dataset Population       : {num_records:,} total historical observations")
     print(f"  Profiling Iterations     : {iterations} passes")

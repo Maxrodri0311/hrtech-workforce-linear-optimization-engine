@@ -1,5 +1,5 @@
 -- ==============================================================================
--- Jobgether Remote Talent Optimization - Real-Time Anomaly & Escalation Triggers
+-- HRTech & Workforce Intelligence Practice Remote Talent Optimization - Real-Time Anomaly & Escalation Triggers
 -- Target: PostgreSQL 16 Enterprise / Amazon RDS Aurora Multi-AZ
 -- Architecture: PL/pgSQL Event Functions, Anomaly Audit Log & Dynamic Alerts
 -- ==============================================================================

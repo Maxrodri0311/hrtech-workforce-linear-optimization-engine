@@ -2,7 +2,7 @@
 setlocal enabledelayedexpansion
 
 echo ================================================================================
-echo   JOBGETHER: SOURCING LINEAR OPTIMIZATION AND FINANCE ENGINE
+echo   HRTech & Workforce Intelligence Practice: SOURCING LINEAR OPTIMIZATION AND FINANCE ENGINE
 echo   Automated Execution, Verification, Benchmarks and CI Guards
 echo ================================================================================
 echo.

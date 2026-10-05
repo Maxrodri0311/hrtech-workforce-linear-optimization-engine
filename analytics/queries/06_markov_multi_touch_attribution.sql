@@ -1,11 +1,11 @@
 -- ==============================================================================
 -- 06_markov_multi_touch_attribution.sql
--- Jobgether Remote Talent Marketplace - Multi-Touch Attribution Engine
+-- HRTech & Workforce Intelligence Practice Remote Talent Marketplace - Multi-Touch Attribution Engine
 --
 -- Objective:
 --   Implements algorithmic Multi-Touch Attribution (MTA) comparing First-Touch,
 --   Last-Touch, Uniform Linear, and First-Order Markov Transition Chains across
---   Jobgether candidate touchpoints (Programmatic, Direct AI, Sponsored, Talent Network, Headhunting).
+--   HRTech & Workforce Intelligence Practice candidate touchpoints (Programmatic, Direct AI, Sponsored, Talent Network, Headhunting).
 --   Computes Removal Effects to determine true marginal conversion contribution
 --   of each sourcing channel prior to linear programming optimization.
 --

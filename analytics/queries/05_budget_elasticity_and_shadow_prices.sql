@@ -1,6 +1,6 @@
 -- ==============================================================================
 -- 05_budget_elasticity_and_shadow_prices.sql
--- Jobgether Remote Talent Marketplace - Analytical Sourcing Telemetry
+-- HRTech & Workforce Intelligence Practice Remote Talent Marketplace - Analytical Sourcing Telemetry
 --
 -- Objective:
 --   Computes marginal budget elasticity of candidate acquisition and estimates

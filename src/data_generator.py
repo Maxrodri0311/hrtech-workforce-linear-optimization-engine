@@ -1,6 +1,6 @@
 """
 src/data_generator.py - Calibrated Stochastic Domain Data Generator.
-Physics: Multidimensional Talent Sourcing Cost, Capacity, and Conversion Yield Matrix for Jobgether.
+Physics: Multidimensional Talent Sourcing Cost, Capacity, and Conversion Yield Matrix for HRTech & Workforce Intelligence Practice.
 Zero unverified placeholders; leverages Polars for vectorized sub-second Parquet serialization.
 """
 
@@ -46,7 +46,7 @@ class StochasticSourcingPhysicsGenerator:
     def generate(self, num_records: int = 50000) -> pl.DataFrame:
         """Vectorized generation of sourcing telemetry records."""
         # 1. Identifiers
-        allocation_ids = [f"ALC-JOBGETHER-{i:07d}" for i in range(1, num_records + 1)]
+        allocation_ids = [f"ALC-HRTech & Workforce Intelligence Practice-{i:07d}" for i in range(1, num_records + 1)]
 
         # 2. Categorical Dimensions
         channels = [
@@ -186,7 +186,7 @@ def generate_domain_dataset(
     seed: int = 42,
 ) -> pl.DataFrame:
     """Main generator facade. Synthesizes calibrated data and saves to Parquet."""
-    print(f"[*] [Data Generator] Simulating {num_records:,} calibrated sourcing records for Jobgether...")
+    print(f"[*] [Data Generator] Simulating {num_records:,} calibrated sourcing records for HRTech & Workforce Intelligence Practice...")
     t0 = time.perf_counter()
 
     generator = StochasticSourcingPhysicsGenerator(seed=seed)
@@ -208,7 +208,7 @@ def generate_domain_dataset(
 
 
 if __name__ == "__main__":
-    parser = argparse.ArgumentParser(description="Calibrated Stochastic Data Generator for Jobgether.")
+    parser = argparse.ArgumentParser(description="Calibrated Stochastic Data Generator for HRTech & Workforce Intelligence Practice.")
     parser.add_argument("--records", type=int, default=50000, help="Number of observations")
     parser.add_argument("--output", type=str, default="data/raw_dataset.parquet", help="Parquet target path")
     parser.add_argument("--seed", type=int, default=42, help="PRNG deterministic seed")

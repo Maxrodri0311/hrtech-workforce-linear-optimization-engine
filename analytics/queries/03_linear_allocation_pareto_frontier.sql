@@ -1,5 +1,5 @@
 -- ==============================================================================
--- Jobgether Remote Talent Optimization - Multi-Objective Pareto Frontier SQL
+-- HRTech & Workforce Intelligence Practice Remote Talent Optimization - Multi-Objective Pareto Frontier SQL
 -- Target: PostgreSQL 16 Enterprise / Amazon RDS Aurora Multi-AZ
 -- Architecture: Non-Dominated Pareto Set Identification, Frontier Ranking
 --               & Marginal Rate of Technical Substitution (MRTS) Analysis

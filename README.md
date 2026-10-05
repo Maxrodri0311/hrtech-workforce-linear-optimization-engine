@@ -1,13 +1,13 @@
 <!-- [SYSTEM INSTRUCTION]
-Blueprint: jobgether-finance-linear-optimization-engine | Target: Jobgether - Data Engineer
+Blueprint: hrtech-workforce-linear-optimization-engine | Target: HRTech & Workforce Intelligence Practice - Data Engineer
 Paradigm: DeliveryParadigm.C_LEVEL_EXECUTIVE_SUITE | Core Algorithm: AlgorithmFamily.LINEAR_PROGRAMMING
 Verified Metrics: HiGHS Primal Solve p50 = 4.81ms, p95 = 7.46ms | Polars Ingestion p95 = 8.52ms | Peak RAM = 0.20MB | Throughput = 187.9 ops/sec
-Author: Maximiliano Rodriguez | Canonical Repo: https://github.com/Maxrodri0311/jobgether-finance-linear-optimization-engine
+Author: Maximiliano Rodriguez | Canonical Repo: https://github.com/Maxrodri0311/hrtech-workforce-linear-optimization-engine
 -->
 
 <div align="center">
 
-# Jobgether: Sourcing Linear Optimization & Finance Engine
+# HRTech & Workforce Intelligence Practice: Sourcing Linear Optimization & Finance Engine
 
 ### Enterprise Capital Allocation & Sourcing Efficiency Engine powered by SciPy HiGHS Linear Programming, Polars Columnar Ingestion, AWS Terraform Lakehouse, and an Institutional C-Level Executive Financial Suite.
 
@@ -17,7 +17,7 @@ Author: Maximiliano Rodriguez | Canonical Repo: https://github.com/Maxrodri0311/
 [![PostgreSQL 16](https://img.shields.io/static/v1?label=PostgreSQL&message=Partitioned%20BRIN%20Analytics&color=4169E1&style=for-the-badge&logo=postgresql&logoColor=white)](https://www.postgresql.org/)
 [![Terraform](https://img.shields.io/static/v1?label=Terraform&message=AWS%20S3%20%2B%20RDS&color=844FBA&style=for-the-badge&logo=terraform&logoColor=white)](https://www.terraform.io/)
 [![OpenPyXL](https://img.shields.io/static/v1?label=OpenPyXL&message=C-Level%20Executive%20Suite&color=217346&style=for-the-badge&logo=microsoftexcel&logoColor=white)](https://openpyxl.readthedocs.io/)
-[![CI](https://img.shields.io/static/v1?label=CI&message=GitHub%20Actions%20Passed&color=2088FF&style=for-the-badge&logo=githubactions&logoColor=white)](https://github.com/Maxrodri0311/jobgether-finance-linear-optimization-engine/actions)
+[![CI](https://img.shields.io/static/v1?label=CI&message=GitHub%20Actions%20Passed&color=2088FF&style=for-the-badge&logo=githubactions&logoColor=white)](https://github.com/Maxrodri0311/hrtech-workforce-linear-optimization-engine/actions)
 [![License: MIT](https://img.shields.io/static/v1?label=License&message=MIT&color=yellow&style=for-the-badge)](https://opensource.org/licenses/MIT)
 
 **[⚡ 1-Click Verification](#-1-click-verification--benchmarks)** &nbsp;•&nbsp;
@@ -32,7 +32,7 @@ Author: Maximiliano Rodriguez | Canonical Repo: https://github.com/Maxrodri0311/
 
 ## 🏛️ 1. Executive Summary & Core Bottleneck
 
-**Jobgether** is an international talent marketplace connecting enterprise employers with pre-vetted remote talent across diverse corridors (LATAM, EMEA, North America, APAC).
+**HRTech & Workforce Intelligence Practice** is an international talent marketplace connecting enterprise employers with pre-vetted remote talent across diverse corridors (LATAM, EMEA, North America, APAC).
 
 ### The Core Operational Bottleneck
 Historically, remote candidate sourcing capital is allocated across channels (Programmatic Job Boards, Direct AI Sourcing, Sponsored Campaigns, Talent Network Pool, Executive Headhunters) using **naive pro-rata heuristics** or static historical rules of thumb. This static approach introduces critical operational failures:
@@ -141,7 +141,7 @@ Evaluated over **30 warm iterations** across **10,000 domain observations** on W
 ## 📁 6. Repository Architecture
 
 ```
-jobgether-finance-linear-optimization-engine/
+hrtech-workforce-linear-optimization-engine/
 ├── .github/workflows/ci.yml         # GitHub Actions Automated CI Pipeline
 ├── .gitattributes                   # GitHub Linguist language overrides & vendoring
 ├── 00_SPEC.md                       # Comprehensive Technical Specification & Blueprint
@@ -187,8 +187,8 @@ jobgether-finance-linear-optimization-engine/
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/Maxrodri0311/jobgether-finance-linear-optimization-engine.git
-cd jobgether-finance-linear-optimization-engine
+git clone https://github.com/Maxrodri0311/hrtech-workforce-linear-optimization-engine.git
+cd hrtech-workforce-linear-optimization-engine
 
 # 2. Run the end-to-end automated runner (Cross-Platform)
 # Windows:

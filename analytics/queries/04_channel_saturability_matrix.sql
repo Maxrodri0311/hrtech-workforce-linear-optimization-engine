@@ -1,5 +1,5 @@
 -- ==============================================================================
--- Jobgether Remote Talent Optimization - Channel Saturability & Shadow Price SQL
+-- HRTech & Workforce Intelligence Practice Remote Talent Optimization - Channel Saturability & Shadow Price SQL
 -- Target: PostgreSQL 16 Enterprise / Amazon RDS Aurora Multi-AZ
 -- Architecture: Capacity Saturation Ratios, Linear Bottleneck Analysis,
 --               and Shadow Price Dual Variable Estimation for C-Level Planning

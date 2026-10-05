@@ -1,5 +1,5 @@
 -- ==============================================================================
--- Jobgether Remote Talent Optimization - Continuous Moving Rollup & KPIs
+-- HRTech & Workforce Intelligence Practice Remote Talent Optimization - Continuous Moving Rollup & KPIs
 -- Target: PostgreSQL 16 Enterprise / Amazon RDS Aurora Multi-AZ
 -- Architecture: Materialized Views with 7-Day Window Moving Averages & Percentiles
 -- ==============================================================================

@@ -1,5 +1,5 @@
 -- ==============================================================================
--- Jobgether Remote Talent Optimization - Longitudinal Cohort Sourcing Analytics
+-- HRTech & Workforce Intelligence Practice Remote Talent Optimization - Longitudinal Cohort Sourcing Analytics
 -- Target: PostgreSQL 16 Enterprise / Amazon RDS Aurora Multi-AZ
 -- Architecture: Advanced Window Functions (NTILE, LAG, LEAD, FIRST_VALUE),
 --               CPA Inflation Tracking & Multi-Period Client Onboarding Cohorts

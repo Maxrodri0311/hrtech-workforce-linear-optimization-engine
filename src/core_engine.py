@@ -1,5 +1,5 @@
 """
-src/core_engine.py - Core Algorithmic & Linear Optimization Engine for Jobgether.
+src/core_engine.py - Core Algorithmic & Linear Optimization Engine for HRTech & Workforce Intelligence Practice.
 Architecture: Decoupled Multi-Tier Domain adhering strictly to Dependency Inversion (DIP).
 Core Algorithm: Constrained Linear Programming (HiGHS Simplex & Interior Point Solvers).
 Trade-Off: Optimal Mathematical Resource Allocation vs. Naive Pro-Rata Heuristics.
@@ -327,7 +327,7 @@ if __name__ == "__main__":
     channels = ingestion.parse_channel_units(df)
 
     test_constraint = CampaignBudgetConstraint(
-        campaign_id="CMP-JOBGETHER-2026-Q1",
+        campaign_id="CMP-HRTech & Workforce Intelligence Practice-2026-Q1",
         client_name="Fintech Global Scale Inc.",
         total_budget_usd=120000.0,
         min_total_hires_required=45,
@@ -339,7 +339,7 @@ if __name__ == "__main__":
     tradeoff = OptimizationComparisonService.evaluate_tradeoff(channels, test_constraint)
 
     print("\n" + "=" * 76)
-    print(" [*] JOBGETHER REMOTE TALENT SOURCING - LINEAR OPTIMIZATION BENCHMARK")
+    print(" [*] HRTech & Workforce Intelligence Practice REMOTE TALENT SOURCING - LINEAR OPTIMIZATION BENCHMARK")
     print("=" * 76)
     print(f" Campaign ID                    : {tradeoff['campaign_id']} ({tradeoff['client_name']})")
     print(f" Total Campaign Budget (USD)    : ${tradeoff['total_budget_usd']:,.2f}")

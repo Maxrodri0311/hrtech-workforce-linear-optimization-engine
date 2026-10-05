@@ -1,5 +1,5 @@
 """
-tests/test_suite.py - Automated Pytest Verification Suite for Jobgether.
+tests/test_suite.py - Automated Pytest Verification Suite for HRTech & Workforce Intelligence Practice.
 Architecture: Mathematical Invariant Assertions, Linear Programming Feasibility,
               Simplex Optimality Proofs, and In-Memory DIP Mock Validation.
 """

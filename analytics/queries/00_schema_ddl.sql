@@ -1,5 +1,5 @@
 -- ==============================================================================
--- Jobgether Remote Talent Optimization - Enterprise Analytics DDL & Partitioning
+-- HRTech & Workforce Intelligence Practice Remote Talent Optimization - Enterprise Analytics DDL & Partitioning
 -- Target: PostgreSQL 16 Enterprise / Amazon RDS Aurora Multi-AZ
 -- Architecture: Time-Series Range Partitioning, BRIN Indexing & Audit Log Tables
 -- ==============================================================================

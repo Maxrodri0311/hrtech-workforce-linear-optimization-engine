@@ -1,5 +1,5 @@
 """
-src/domain/entities.py - Pure Domain Entities for Jobgether Remote Talent Optimization.
+src/domain/entities.py - Pure Domain Entities for HRTech & Workforce Intelligence Practice Remote Talent Optimization.
 Architecture: Clean Architecture & Strict Pydantic Contracts.
 Zero external I/O or vendor infrastructure dependencies.
 """
@@ -11,7 +11,7 @@ from pydantic import BaseModel, Field, field_validator
 
 
 class SourcingChannel(str, Enum):
-    """Available sourcing distribution channels in Jobgether marketplace."""
+    """Available sourcing distribution channels in HRTech & Workforce Intelligence Practice marketplace."""
     PROGRAMMATIC_JOB_BOARDS = "Programmatic Job Boards"
     DIRECT_AI_SOURCING = "Direct AI Sourcing"
     SPONSORED_CAMPAIGNS = "Sponsored Campaigns"
